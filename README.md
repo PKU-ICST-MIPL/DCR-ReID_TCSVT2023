@@ -20,7 +20,7 @@ Zhenyu Cui, Jiahuan Zhou, Yuxin Peng, Shiliang Zhang and Yaowei Wang, "DCR-ReID:
 
 # Data Preparation
 
-- Download the pre-processed datasets that we used from the [link](https://pan.baidu.com/s/1LwAyB1R86P3xMZxIPm1vwQ) (password: dg1a) and unzipped them to ./datasets folders.
+- Download the pre-processed datasets that we used from the [link](https://pan.baidu.com/s/1LwAyB1R86P3xMZxIPm1vwQ) (password: dg1a) and unzip them to ./datasets folders.
 
 
 # Usage
@@ -35,7 +35,7 @@ Zhenyu Cui, Jiahuan Zhou, Yuxin Peng, Shiliang Zhang and Yaowei Wang, "DCR-ReID:
 
 3. For CCVID dataset: `python -m torch.distributed.launch --nproc_per_node=4 --master_port 12345 main.py --dataset ccvid --cfg configs/c2dres50_ce_cal.yaml --gpu 0,1,2,3`
 
-For any questions, fell free to contact us (cuizhenyu@stu.pku.edu.cn).
+For any questions, feel free to contact us (cuizhenyu@stu.pku.edu.cn).
 
 Welcome to our [Laboratory Homepage](http://www.icst.pku.edu.cn/mipl/home/) for more information about our papers, source codes, and datasets.
 
